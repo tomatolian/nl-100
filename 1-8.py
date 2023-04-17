@@ -10,4 +10,5 @@ def cipher(w):
       ans+=i
   return ans
 
-print(cipher('aiueoAIUEO123'))
+print('encode:',cipher('aiueoAIUEO123'))
+print('decode:',cipher('aiueoAIUEO123'))
